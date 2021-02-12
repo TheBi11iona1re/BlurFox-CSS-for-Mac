@@ -1,0 +1,39 @@
+/*
+░▀█▀░█▀▄░█▀█░█▀█░█▀▀░█▀█░█▀█░█▀▄░█▀▀░█▀█░█▀▀░█░█
+░░█░░█▀▄░█▀█░█░█░▀▀█░█▀▀░█▀█░█▀▄░█▀▀░█░█░█░░░░█░
+░░▀░░▀░▀░▀░▀░▀░▀░▀▀▀░▀░░░▀░▀░▀░▀░▀▀▀░▀░▀░▀▀▀░░▀░
+
+Main window
+*/
+#main-window {
+	font-kerning: normal;
+	border: none !important;
+}
+
+/* Add transparency to light and dark color schemes */
+#main-window:-moz-lwtheme-brighttext,
+#main-window:-moz-lwtheme-darktext {
+	background: var(--bf-main-window) !important;
+	-moz-appearance: var(--bf-moz-appearance) !important;
+
+ -moz-appearance: -moz-mac-vibrancy-dark !important; }
+
+.theme-body { background: transparent !important; 
+backdrop-filter:blur(6px); }
+}
+
+/*
+░█▀▀░█▀█░█▀█░▀█▀
+░█▀▀░█░█░█░█░░█░
+░▀░░░▀▀▀░▀░▀░░▀░
+
+I'm not sure if this does something
+*/
+
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	font-variant-ligatures: none;
+	font-kerning: normal;
+}
